@@ -1,0 +1,57 @@
+:root {
+  /* Brand colors */
+  --brand-primary: #4a56e2;
+  --brand-secondary: #24cca7;
+  --brand-accent: #ff6596;
+  --brand-logout: #bdbdbd;
+
+  /* Background colors */
+  --bg-light: #ffffff;
+  --bg-accent: #e7eaf2;
+  --bg-accent-modified: rgba(255, 255, 255, 0.4);
+  --bg-primary: #c5baff;
+  --bg-secondary: #ffd8d0;
+  --bg-gray: #dcdcdf;
+  --bg-transactions-element: #4a57e21e;
+  --bg-progress-bar: #e5f1ef;
+  --bg-modal-overlay: #00000040;
+  --bg-category-select: #00000008;
+  --bg-btn-focus: #24cca7;
+
+  /* Font colors */
+  --font-light: #fff;
+  --font-dark: #000;
+  --font-grey: #a6a6a6;
+
+  /* Borders */
+  --border-transactions: #dcdcdf;
+
+  /* Shadows */
+  --shadow-progress-bar: #24cca880;
+  --shadow-category-select: #0000001a;
+
+  /* Other UI colors */
+  --switch-main: #e0e0e0;
+  --nav-active: #4e58dd;
+  --nav-inactive: #7079e3;
+
+  /* Breakpoints */
+  --bp-mobile: 767px;
+  --bp-tablet: 1279px;
+
+  /* Chart colors */
+  --expenses: #fed057;
+  --products: #ffd8d0;
+  --car: #fd9498;
+  --self: #c5baff;
+  --child: #6e78e8;
+  --house: #4a56e2;
+  --education: #81e1ff;
+  --leisure: #24cca7;
+  --other: #00ad84;
+
+  /* PlaceholderColor */
+  ::placeholder {
+    color: var(--brand-logout);
+  }
+}
